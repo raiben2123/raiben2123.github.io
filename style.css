@@ -1,0 +1,98 @@
+body {
+    background-image: url(img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: FuentePersonalizada, sans-serif;
+}
+
+@font-face {
+    font-family:FuentePersonalizada;
+    src: url(font/RETROTECH.ttf);
+}
+
+#titulo {
+    color: white;
+    font-size: 52px;
+    text-align: center;
+}
+
+table {
+    width: 800px;
+    height: 500px;
+    border: 5px groove rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+    margin: auto;
+}
+
+tr, td, #celdavacia {
+    width: 40px;
+    height: 40px;
+    border: 0px outset gray;
+    /* border: 5px groove gray */ /* Lo pongo comentado porque la situación es rara, no es igual que la imagen con ese border, es raro, entonces lo dejo ahí
+    para que veas que lo entiendo y lo he hecho pero entonces no se queda igual que la imagen */
+    border-radius: 2px;
+    background-color: rgb(62, 59, 59);
+}
+
+.marcador {
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    border-bottom-color: white;
+}
+
+#parterojamarcador {
+    color: red;
+    font-size: 40px;
+}
+
+#cerocero {
+    margin-right: 50px;
+}
+
+.primerafila > td {
+    background-color: rgb(62, 59, 59);
+    border: 1px outset gray;
+}
+
+.segundafila > td {
+    background-color: rgb(239 , 5, 5);
+    border: 1px outset gray;
+}
+
+.tercerafila > td {
+    background-color: rgb(239, 216, 5);
+    border: 1px outset gray;
+}
+
+.cuartafila > td {
+    background-color: blue;
+    border: 1px outset gray;
+}
+
+.quintafila > td {
+    background-color: violet;
+    border: 1px outset gray;
+}
+
+.sextafila > td {
+    background-color: green;
+    border: 1px outset gray;
+}
+
+.barra {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}
+
+.bola {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+}
